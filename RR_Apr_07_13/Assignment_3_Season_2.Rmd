@@ -6,13 +6,13 @@ output:
   pdf_document:
     toc: true
 params:
-  season: "Season 1"
-  season_data: season_1.RData
+  season: "Season 2"
+  season_data: season_2.RData
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = params$printcode)
-data_folder<-load("Data/season_1.RData")
+data_folder<-load("Data/season_2.RData") #change for season
 ###setting variables
 n_episodes <- nrow(season_data)
 premiere <- min(season_data$premiere_date)
@@ -67,7 +67,7 @@ Set on the fictional continents of Westeros and Essos, Game of Thrones has a lar
 
 The most popular episode of the season was `r pop_ep_max`, in which:
 
-> `rpop_ep_description`
+> `r pop_ep_description`
 
 ***
 
