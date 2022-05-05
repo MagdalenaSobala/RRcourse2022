@@ -67,7 +67,7 @@ Set on the fictional continents of Westeros and Essos, Game of Thrones has a lar
 
 The most popular episode of the season was `r pop_ep_max`, in which:
 
-> `rpop_ep_description`
+> `r pop_ep_description`
 
 ***
 
