@@ -1,8 +1,15 @@
 ---
 title: "(R)Markdown"
 author: "Wojciech Hardy; Łukasz Nawaro"
-date: "3/23/2022"
-output: html_document
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_float: 
+      smooth_scroll: false
+      collapsed: false
+    number_sections: true
+    toc_depth: 4
 ---
 
 ```{r setup, include=FALSE}

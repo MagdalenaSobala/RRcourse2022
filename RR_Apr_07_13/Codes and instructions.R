@@ -2,7 +2,7 @@
 # Reproducible Research 2022
 # Wojciech Hardy & Lukasz Nawaro
 
-setwd("")
+setwd("C:/Users/Ms403715/Desktop/RR_git/RRcourse_01/RRcourse2022/RR_Apr_07_13")
 
 # We need to load the necessary packages if we're operating through an R script.
 
